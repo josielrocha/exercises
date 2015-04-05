@@ -50,9 +50,9 @@ public class Unit02 {
         double[][] distances = new double[rowCities.length][colCities.length];
         Scanner input = new Scanner(System.in);
         double distance;
-        double greatherDistance = 0;
-        String greatherDistanceCity01 = "";
-        String greatherDistanceCity02 = "";
+        double lowerDistance = 0;
+        String lowerDistanceCity01 = "";
+        String lowerDistanceCity02 = "";
 
         for(int i=0; i<distances.length; i++) {
             for (int j=0; j<distances[0].length; j++) {
@@ -83,10 +83,10 @@ public class Unit02 {
             for (int j=0; j<distances[0].length; j++) {
                 distance = distances[i][j];
 
-                if ((i==0 && j==0) || distance > greatherDistance) {
-                    greatherDistance = distance;
-                    greatherDistanceCity01 = rowCities[i];
-                    greatherDistanceCity02 = colCities[j];
+                if ((i==0 && j==0) || distance < lowerDistance) {
+                    lowerDistance = distance;
+                    lowerDistanceCity01 = rowCities[i];
+                    lowerDistanceCity02 = colCities[j];
                 }
             }
         }
@@ -95,10 +95,8 @@ public class Unit02 {
         System.out.println("Exercício 02");
         System.out.println("=============================================");
 
-        System.out.println("A maior distância informada é: " + greatherDistance
-            + ". A mesma fica entre " + greatherDistanceCity01 + " e "
-            + greatherDistanceCity02);
-
+        System.out.println("Menor: " + lowerDistance + ", "
+            + lowerDistanceCity01 + ", " + lowerDistanceCity02);
         System.out.println();
     }
 }
