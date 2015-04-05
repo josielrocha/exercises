@@ -18,11 +18,11 @@ Entre 35,0 e 39,9 | Obesidade grau II
 2. Uma equação de 2o grau é representada por (ax2+bx+c). Utilize os conceitos de OO estudados para definir uma classe que represente tal conceito. A classe deve contemplar as seguintes funcionalidades:
     - Cálculo do delta (b2 - 4 * a * c)
     - Cálculo das raízes de uma equação de 2o grau, quando o delta >=0
-        -(b + RAIZ(delta)) / 2 * a
-        -(b - RAIZ(delta)) / 2 * a
+        * -(b + RAIZ(delta)) / 2 * a
+        * -(b - RAIZ(delta)) / 2 * a
     - Utilize o seguinte conjunto de teste:
-        0 2 3 : Não é de segundo grau
-        1 -8 7: Raiz 1: 7 e Raiz 2 = 1 (delta > 0)
-        1 2 3 : Não há raiz real (delta < 0)
-        2 4 2 : Há uma raiz real -1 (delta = 0)
+        * 0 2 3 : Não é de segundo grau
+        * 1 -8 7: Raiz 1: 7 e Raiz 2 = 1 (delta > 0)
+        * 1 2 3 : Não há raiz real (delta < 0)
+        * 2 4 2 : Há uma raiz real -1 (delta = 0)
 
