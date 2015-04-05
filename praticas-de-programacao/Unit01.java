@@ -18,12 +18,7 @@ public class Unit01 {
             System.out.print("Digite um número inteiro: ");
             number = input.nextInt();
 
-            if (i==0) {
-                greatherValue = number;
-                greatherValueOrder = i + 1;
-            }
-
-            if (number > greatherValue) {
+            if (i==0 || number > greatherValue) {
                 greatherValue = number;
                 greatherValueOrder = i + 1;
             }
