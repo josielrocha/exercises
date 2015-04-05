@@ -71,5 +71,6 @@ public class Unit01 {
         System.out.println("Foram lidos os pesos de " + weights.length + " lutadores");
         System.out.println("O peso médio obtido é: " + average);
         System.out.println(ableFighters + " lutadores possuem o peso maior ou igual a média");
+    }
 }
 
