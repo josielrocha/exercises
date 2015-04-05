@@ -10,7 +10,7 @@ Cidade 2 |      490 |      579 |     174
 Cidade 3 |      415 |      576 |      85
 Cidade 4 |      524 |      664 |     169
 
-2. Com base no exercício anterior, altere o programa para informar a maior e a menor distância. Também não deixe de informas as cidades, por exemplo "Menor: 74, Cidade 1, Cidade 2"
+2. Com base no exercício anterior, altere o programa para informar a maior e a menor distância. Também não deixe de informar as cidades, por exemplo "Menor: 74, Cidade 1, Cidade 2"
 
 3. Monte um programa para construir uma matriz de ordem MxN, ou seja, leia dois inteiros: M e N para determinar a quantidade de linhas e colunas. A seguir, preencha essa tabela com 0 em todos os elementos, exceto a diagonal principal. Os elementos que pertençam à esta diagonal devem receber valores sequenciais: 1, 2, 3, ... Exemplo: M=4, N=5.
 
