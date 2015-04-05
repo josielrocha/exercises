@@ -27,6 +27,8 @@ public class Unit01 {
                 greatherValue = number;
                 greatherValueOrder = i + 1;
             }
+
+            numbers[i] = number;
         }
 
         System.out.println("===================================================");
