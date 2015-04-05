@@ -5,6 +5,7 @@ public class Unit02 {
         // Run exercises
         exerciseOne();
         exerciseTwo();
+        exerciseThree();
     }
 
     public static void exerciseOne() {
@@ -98,6 +99,34 @@ public class Unit02 {
         System.out.println("Menor: " + lowerDistance + ", "
             + lowerDistanceCity01 + ", " + lowerDistanceCity02);
         System.out.println();
+    }
+
+    public static void exerciseThree() {
+        Scanner input = new Scanner(System.in);
+        int[][] matrix;
+
+        System.out.print("Informe a quantidade de linhas da matriz: ");
+        int linesQuantity = input.nextInt();
+
+        System.out.print("Informe a quantidade de colunas da matriz: ");
+        int columnsQuantity = input.nextInt();
+
+        matrix = new int[linesQuantity][columnsQuantity];
+        for (int i=0; i<matrix.length; i++) {
+            if (i<matrix[0].length) {
+                matrix[i][i] = i+1;
+            }
+        }
+
+        System.out.println("=============================================");
+        System.out.println("Exercício 03");
+        System.out.println("=============================================");
+        for (int i=0; i<matrix.length; i++) {
+            for (int j=0; j<matrix[0].length; j++) {
+                System.out.print(matrix[i][j] + "\t");
+            }
+            System.out.println();
+        }
     }
 }
 
